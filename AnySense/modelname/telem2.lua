@@ -30,7 +30,7 @@ local function run(event)
 		oHome = "yes"
 	end
 
-    lcd.drawText(20, 2, "RAW:", SMLSIZE)
+    lcd.drawText(20, 2, "RAWs:", SMLSIZE)
     lcd.drawNumber(60, 2, raw, LEFT+SMLSIZE)
 
     lcd.drawText(20, 12, "SAT:", SMLSIZE)
